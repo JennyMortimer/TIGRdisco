@@ -1,0 +1,69 @@
+{
+  "dr_tas_with_tigr.xlsx": {
+    "sheet": "Tas with TIGR",
+    "columns": [
+      "protein_name",
+      "sequence_name",
+      "strand",
+      "protein_sequence",
+      "tier",
+      "score",
+      "full_E",
+      "domain_E",
+      "HMM_cov",
+      "protein_cov",
+      "ntd_annotation",
+      "tigr_array",
+      "hmm_alignment",
+      "weblogo_array_usage",
+      "weblogo"
+    ],
+    "original_pane": null
+  },
+  "sl_tas_with_tigr.xlsx": {
+    "sheet": "sl-tigr_engine",
+    "columns": [
+      "protein_name",
+      "sequence_name",
+      "strand",
+      "protein_sequence",
+      "tier",
+      "score",
+      "full_E",
+      "domain_E",
+      "HMM_cov",
+      "protein_cov",
+      "ntd_annotation",
+      "tigr_array",
+      "hmm_alignment"
+    ],
+    "original_pane": {
+      "ySplit": "1",
+      "topLeftCell": "A2",
+      "activePane": "bottomLeft",
+      "state": "frozen"
+    }
+  },
+  "tas_without_tigr.xlsx": {
+    "sheet": "Tas without TIGR",
+    "columns": [
+      "protein_name",
+      "sequence_name",
+      "strand",
+      "protein_sequence",
+      "tier",
+      "score",
+      "full_E",
+      "domain_E",
+      "HMM_cov",
+      "protein_cov",
+      "ntd_annotation"
+    ],
+    "original_pane": {
+      "ySplit": "1",
+      "topLeftCell": "A2",
+      "activePane": "bottomLeft",
+      "state": "frozen"
+    }
+  }
+}

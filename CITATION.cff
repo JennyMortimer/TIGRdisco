@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use TIGRdisco, please cite the preprint given under preferred-citation."
+title: "TIGRdisco: discovery of TIGR arrays and TIGR-associated Tas proteins from nucleotide sequences"
+version: 1.2.6
+date-released: 2026-11-17
+type: software
+license: MIT
+repository-code: "https://github.com/JennyMortimer/TIGRdisco"
+keywords:
+  - TIGR-Tas
+  - TIGR array
+  - Tas protein
+  - metagenomics
+authors:
+  - family-names: "Gu"
+    given-names: "Siwen"
+    affiliation: "Waite Research Institute, School of Agriculture, Food and Wine, Adelaide University"
+preferred-citation:
+  type: article
+  title: "TIGRdisco: a tool for the discovery of TIGR arrays and TIGR-associated Tas proteins from nucleotide sequences"
+  authors:
+    - family-names: "Gu"
+      given-names: "Siwen"
+    - family-names: "Gong"
+      given-names: "Zheng"
+    - family-names: "Mortimer"
+      given-names: "Jenny C."
+  journal: "bioRxiv"
+  year: 2026
+  doi: "10.64898/2026.11.04.764119"
+  notes: "Preprint, not peer reviewed."
+references:
+  - type: article
+    title: "TIGR-Tas: A family of modular RNA-guided DNA-targeting systems in prokaryotes and their viruses"
+    authors:
+      - family-names: "Faure"
+        given-names: "Guilhem"
+      - name: "et al."
+    journal: "Science"
+    volume: 388
+    year: 2025
+    doi: "10.1126/science.adv9789"
+    notes: "Source of the supplementary sequences from which the bundled HMM profiles were derived."
