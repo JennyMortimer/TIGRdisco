@@ -40,7 +40,7 @@ fetches a suitable Python by itself, and run:
 ```
 uv tool install git+https://github.com/JennyMortimer/TIGRdisco.git
 ```
-
+If the commands are not found afterwards, run uv tool update-shell and open a new terminal.
 ## Quick start
 
 From the repository folder (a clone or the extracted archive):
