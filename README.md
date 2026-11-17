@@ -9,20 +9,48 @@ Preprint: Gu, Gong and Mortimer, *bioRxiv* (2026),
 
 ## Install
 
-Python 3.10 or later. No external binary is needed.
+TIGRdisco needs Python 3.10 or later and no other program. Install it into its own
+environment so that it stays apart from other Python packages.
+
+Linux and macOS:
 
 ```bash
+python3 -m venv tigrdisco_env
+source tigrdisco_env/bin/activate
 pip install git+https://github.com/JennyMortimer/TIGRdisco.git
+tigrdisco --version
 ```
 
-or, from a clone or a release archive, `pip install .`
+Windows (Command Prompt or PowerShell):
+
+```
+py -m venv tigrdisco_env
+tigrdisco_env\Scripts\activate
+pip install git+https://github.com/JennyMortimer/TIGRdisco.git
+tigrdisco --version
+```
+
+`pip install git+...` needs git. Without git, download the source archive from the Releases
+page and install that file instead, for example `pip install TIGRdisco-1.2.6.zip`.
+Activate the environment (the second line) in every new terminal before using TIGRdisco.
+
+Without Python, install [uv](https://docs.astral.sh/uv/getting-started/installation/), which
+fetches a suitable Python by itself, and run:
+
+```
+uv tool install git+https://github.com/JennyMortimer/TIGRdisco.git
+```
 
 ## Quick start
 
+From the repository folder (a clone or the extracted archive):
+
 ```bash
-tigrdisco-fasta examples/example_windows.fa --out demo --workers 2
+tigrdisco-fasta examples/example_windows.fa --out demo --workers 2 --xlsx
 tigrdisco-db examples/example_central.gb --out demo_db
 ```
+
+Results are written to `demo` and `demo_db`.
 
 ## Usage
 
