@@ -41,6 +41,17 @@ fetches a suitable Python by itself, and run:
 uv tool install git+https://github.com/JennyMortimer/TIGRdisco.git
 ```
 If the commands are not found afterwards, run uv tool update-shell and open a new terminal.
+
+## Versions
+
+The benchmarking reported in the associated manuscript
+(doi:10.64898/2026.11.04.764119) was performed with TIGRdisco v1.2.4.
+
+v1.2.5 and v1.2.6 contain packaging, naming and code-cleanup changes
+only; the detection logic is unchanged. On the full reference collection
+(23,096 records), `loci.jsonl` and `loci.csv` produced by v1.2.6 are
+byte-identical to those produced by v1.2.4.
+
 ## Quick start
 
 From the repository folder (a clone or the extracted archive):
